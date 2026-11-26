@@ -1,6 +1,6 @@
-# lmmsaudiocapture
+# myaudiocaptureforlmms
 
-a lightweight Windows x64 VeSTige instrument plugin for LMMS that captures audio independently from LMMS, lets you edit the waveform in a clutter-free Direct2D/DirectWrite interface, and plays the audio when MIDI note A4 is triggered.
+a Windows x64 VeSTige instrument plugin for LMMS that captures audio independently from LMMS, lets you edit the waveform in a clutter-free Direct2D/DirectWrite interface, and plays the audio when MIDI note A4 is triggered.
 
 ## features
 
@@ -34,8 +34,8 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
 outputs:
-- `dist/lmmsaudiocapture.dll` (64-bit VeSTige plugin for LMMS)
-- `bin/lmmsaudiocapture_standalone.exe` (standalone Windows app)
+- `dist/myaudiocaptureforlmms.dll` (64-bit VeSTige plugin for LMMS)
+- `bin/myaudiocaptureforlmms_standalone.exe` (standalone Windows app)
 
 ## license
 

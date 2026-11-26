@@ -208,6 +208,6 @@ int main() {
     testAudioClipEdits();
     testWavRoundTrip();
     testMidiA4AndModes();
-    printf("All lmmsaudiocapture unit tests passed!\n");
+    printf("All myaudiocaptureforlmms unit tests passed!\n");
     return 0;
 }

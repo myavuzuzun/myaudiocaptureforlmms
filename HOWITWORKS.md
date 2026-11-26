@@ -1,12 +1,12 @@
 # How It Works
 
-This document describes the internal architecture of `lmmsaudiocapture`, its threading model, memory management, audio capture backends, real-time DSP playback, and GUI rendering.
+This document describes the internal architecture of `myaudiocaptureforlmms`, its threading model, memory management, audio capture backends, real-time DSP playback, and GUI rendering.
 
 ---
 
 ## 1. High-Level Architecture & Threading Model
 
-`lmmsaudiocapture` separates work across three threads so that recording, UI interaction, and real-time audio synthesis never block one another:
+`myaudiocaptureforlmms` separates work across three threads so that recording, UI interaction, and real-time audio synthesis never block one another:
 
 1. **Host Audio Thread** (`LMMSAudioCaptureVestige.cpp` -> `CapturePluginEngine::process`):
    - Real-time safe: zero heap allocations, zero blocking mutex locks (`try_lock` only), wait-free MIDI consumption, and off-thread buffer deallocation.

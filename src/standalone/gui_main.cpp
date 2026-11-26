@@ -89,7 +89,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow) {
     AdjustWindowRect(&rc, style, FALSE);
 
     HWND hMain = CreateWindowExA(
-        0, "LMACStandaloneHost", "lmmsaudiocapture",
+        0, "LMACStandaloneHost", "myaudiocaptureforlmms",
         style, CW_USEDEFAULT, CW_USEDEFAULT,
         rc.right - rc.left, rc.bottom - rc.top,
         nullptr, nullptr, hInstance, nullptr

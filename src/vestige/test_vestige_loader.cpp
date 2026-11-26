@@ -19,7 +19,7 @@ static intptr_t __cdecl hostCallback(AEffect* effect, int32_t opcode, int32_t in
 }
 
 int main(int argc, char** argv) {
-    const char* dllPath = (argc > 1) ? argv[1] : "dist/lmmsaudiocapture.dll";
+    const char* dllPath = (argc > 1) ? argv[1] : "dist/myaudiocaptureforlmms.dll";
     HMODULE hMod = LoadLibraryA(dllPath);
     if (!hMod) {
         printf("FAIL: LoadLibraryA(%s) failed (err=%lu)\n", dllPath, GetLastError());
@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
 
     char name[64]{};
     fx->dispatcher(fx, effGetEffectName, 0, 0, name, 0.0f);
-    if (std::strcmp(name, "lmmsaudiocapture") != 0) {
+    if (std::strcmp(name, "myaudiocaptureforlmms") != 0) {
         printf("FAIL: Unexpected effect name: %s\n", name);
         return 1;
     }

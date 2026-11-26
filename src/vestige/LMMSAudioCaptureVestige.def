@@ -1,4 +1,4 @@
-LIBRARY lmmsaudiocapture
+LIBRARY myaudiocaptureforlmms
 EXPORTS
     VSTPluginMain
     main=VSTPluginMain

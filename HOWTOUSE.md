@@ -1,15 +1,15 @@
-# How to Use lmmsaudiocapture
+# How to Use myaudiocaptureforlmms
 
-`lmmsaudiocapture` lets you record audio from any Windows input or desktop audio stream independently from LMMS, trim and edit the clip, and trigger it in your track with **A4**.
+`myaudiocaptureforlmms` lets you record audio from any Windows input or desktop audio stream independently from LMMS, trim and edit the clip, and trigger it in your track with **A4**.
 
 ---
 
 ## 1. Loading the Plugin in LMMS
 
-1. Build or copy `lmmsaudiocapture.dll` into your LMMS VST plugins folder (for example, `Documents\lmms\plugins\vst\lmmsaudiocapture.dll`).
+1. Build or copy `myaudiocaptureforlmms.dll` into your LMMS VST plugins folder (for example, `Documents\lmms\plugins\vst\myaudiocaptureforlmms.dll`).
 2. In LMMS, drag **VeSTige** into the Song Editor or Beat+Bassline Editor.
-3. Click the folder icon in VeSTige and select `lmmsaudiocapture.dll`.
-4. You can also run `bin\lmmsaudiocapture_standalone.exe` outside LMMS to record, edit, and audition clips directly.
+3. Click the folder icon in VeSTige and select `myaudiocaptureforlmms.dll`.
+4. You can also run `bin\myaudiocaptureforlmms_standalone.exe` outside LMMS to record, edit, and audition clips directly.
 
 ---
 

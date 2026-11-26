@@ -287,15 +287,15 @@ public:
                 return kPlugCategSynth;
 
             case effGetEffectName:
-                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "lmmsaudiocapture");
+                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "myaudiocaptureforlmms");
                 return 1;
 
             case effGetVendorString:
-                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "lmmsaudiocapture");
+                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "myaudiocaptureforlmms");
                 return 1;
 
             case effGetProductString:
-                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "lmmsaudiocapture");
+                if (ptr) std::snprintf(static_cast<char*>(ptr), 64, "myaudiocaptureforlmms");
                 return 1;
 
             case effGetVendorVersion:
